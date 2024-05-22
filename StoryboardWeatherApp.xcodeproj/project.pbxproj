@@ -24,6 +24,7 @@
 		E4A358712BFDD402004B6FD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4A358742BFDD402004B6FD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4A358762BFDD402004B6FD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A3587C2BFDD463004B6FD1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		E4A3585C2BFDD401004B6FD1 = {
 			isa = PBXGroup;
 			children = (
+				E4A3587C2BFDD463004B6FD1 /* README.md */,
 				E4A358672BFDD401004B6FD1 /* StoryboardWeatherApp */,
 				E4A358662BFDD401004B6FD1 /* Products */,
 			);
