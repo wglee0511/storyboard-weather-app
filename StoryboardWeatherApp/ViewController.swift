@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var weatherTextValue: UILabel!
     @IBOutlet weak var weatherTempValue: UILabel!
     @IBOutlet weak var weatherDescriptionValue: UILabel!
+    @IBOutlet weak var weatherImageBackgroundImageValue: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,7 +24,7 @@ class ViewController: UIViewController {
         let imageValue = getWeatherImage(weatherValue: weatherValue, imageView: weatherImageValue)
         weatherImageValue.image = imageValue
         weatherTextValue.text = "\(weatherValue)"
-        
+        weatherImageBackgroundImageValue.image = UIImage(named: "image_seoul")
         getWeatherDescription(temp: tempValue, labelValue: weatherDescriptionValue)
         
     }
