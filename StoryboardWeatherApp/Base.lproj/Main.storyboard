@@ -72,7 +72,9 @@
                         <constraints>
                             <constraint firstItem="6le-eP-gW8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2U2-JC-Re4"/>
                             <constraint firstItem="6le-eP-gW8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="126" id="6gF-dW-xDe"/>
+                            <constraint firstItem="gxv-N5-2lO" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="6nT-67-uMf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6le-eP-gW8" secondAttribute="trailing" constant="56" id="8eI-XE-PTQ"/>
+                            <constraint firstItem="gxv-N5-2lO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8rS-Wp-BFD"/>
                             <constraint firstItem="pBB-Hy-LdC" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="96W-Ct-DUC"/>
                             <constraint firstAttribute="bottom" secondItem="gxv-N5-2lO" secondAttribute="bottom" id="AL6-NO-USQ"/>
                             <constraint firstAttribute="trailing" secondItem="pBB-Hy-LdC" secondAttribute="trailing" id="FwA-6d-xqd"/>
@@ -80,8 +82,10 @@
                             <constraint firstAttribute="bottom" secondItem="pBB-Hy-LdC" secondAttribute="bottom" id="HDH-DI-1uY"/>
                             <constraint firstAttribute="trailing" secondItem="pBB-Hy-LdC" secondAttribute="trailing" id="KFa-Uh-CvD"/>
                             <constraint firstAttribute="bottom" secondItem="pBB-Hy-LdC" secondAttribute="bottom" id="MYT-v6-h8X"/>
+                            <constraint firstAttribute="bottom" secondItem="gxv-N5-2lO" secondAttribute="bottom" id="XwW-8M-JS9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6le-eP-gW8" secondAttribute="trailing" constant="56" id="Xzu-cS-Lig"/>
                             <constraint firstItem="gxv-N5-2lO" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ZEz-gS-iXm"/>
+                            <constraint firstItem="gxv-N5-2lO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bEo-N0-Sok"/>
                             <constraint firstItem="pBB-Hy-LdC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="dUX-Fk-hr7"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6le-eP-gW8" secondAttribute="trailing" constant="56" id="eaM-YS-lqw"/>
                             <constraint firstItem="gxv-N5-2lO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iPC-Lb-UTm"/>
