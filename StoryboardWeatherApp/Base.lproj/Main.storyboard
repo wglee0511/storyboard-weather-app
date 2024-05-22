@@ -17,23 +17,23 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pBB-Hy-LdC">
-                                <rect key="frame" x="0.0" y="0.0" width="372" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
                             <view alpha="0.29999999999999999" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxv-N5-2lO">
-                                <rect key="frame" x="0.0" y="0.0" width="372" height="852"/>
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6le-eP-gW8">
-                                <rect key="frame" x="56" y="185" width="260" height="442"/>
+                                <rect key="frame" x="56" y="185" width="281" height="442"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Al-kH-fsA">
-                                        <rect key="frame" x="98.333333333333329" y="316" width="63.333333333333329" height="60"/>
+                                        <rect key="frame" x="108.99999999999999" y="316" width="63.333333333333329" height="60"/>
                                         <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="50"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="맑음" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bcx-bF-Szd">
-                                        <rect key="frame" x="104" y="275" width="52" height="36"/>
+                                        <rect key="frame" x="114.66666666666666" y="275" width="52" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -47,7 +47,7 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="맑아요" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hOR-1D-iA4">
-                                        <rect key="frame" x="104" y="386" width="52" height="24"/>
+                                        <rect key="frame" x="114.66666666666666" y="386" width="52" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -62,6 +62,7 @@
                                     <constraint firstAttribute="trailing" secondItem="1Kl-J7-hBB" secondAttribute="trailing" constant="10" id="FRL-CV-KrS"/>
                                     <constraint firstItem="hOR-1D-iA4" firstAttribute="centerX" secondItem="6le-eP-gW8" secondAttribute="centerX" id="KEy-bo-sps"/>
                                     <constraint firstItem="4Al-kH-fsA" firstAttribute="centerX" secondItem="6le-eP-gW8" secondAttribute="centerX" id="b3E-q3-sma"/>
+                                    <constraint firstItem="1Kl-J7-hBB" firstAttribute="centerX" secondItem="6le-eP-gW8" secondAttribute="centerX" id="eVQ-eN-vfN"/>
                                     <constraint firstItem="Bcx-bF-Szd" firstAttribute="centerX" secondItem="6le-eP-gW8" secondAttribute="centerX" id="gYh-ah-9bT"/>
                                     <constraint firstItem="1Kl-J7-hBB" firstAttribute="centerX" secondItem="6le-eP-gW8" secondAttribute="centerX" id="nf3-9E-vNk"/>
                                 </constraints>
@@ -115,7 +116,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
