@@ -18,15 +18,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let weatherValue = [WeatherType.비, WeatherType.눈, WeatherType.맑음, WeatherType.흐림].randomElement() ?? WeatherType.맑음
+        let weatherValue = [WeatherType.rain, WeatherType.snow, WeatherType.cloudy, WeatherType.clear].randomElement() ?? WeatherType.clear
         let tempValue = Int.random(in: -50 ... 50)
         let imageValue = getWeatherImage(weatherValue: weatherValue, imageView: weatherImageValue)
         
         weatherImageValue.image = imageValue
-        weatherTextValue.text = "\(weatherValue)"
+        weatherTextValue.text = "\(weatherValue.rawValue)"
         weatherImageBackgroundImageValue.image = UIImage(named: "image_seoul")
-        getWeatherDescription(temp: tempValue, labelValue: weatherDescriptionValue)
-        
+        weatherDescriptionValue.text = weatherValue.weatherDescription(temp: tempValue)
     }
 
 
